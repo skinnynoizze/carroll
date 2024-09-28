@@ -4935,8 +4935,16 @@ a.logo:hover{
 .section-line-gradient {
     width: 70px;
     height: 1px;
-    background: var(--gradient-primary-1);
+    background: linear-gradient(to right, 
+            rgba(10, 34, 84, 0.1), 
+            rgba(10, 34, 84, 0.5), 
+            rgba(10, 34, 84, 0.1));
   }
+
+  .bg-dark-1.light-content .section-line-gradient {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
+}
+
 .text-gray{
     color: var(--color-gray-1);
 }

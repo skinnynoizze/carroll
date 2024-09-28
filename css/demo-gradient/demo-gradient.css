@@ -43,13 +43,13 @@
 }
 .dark-mode {
   --color-primary-1: #3940b9;
-  --color-primary-2: #999ddc;
+  --color-primary-2: #497ca5;
   --color-primary-3: #092256;
   --color-primary-4: #ffffff;
-  --gradient-primary-1: linear-gradient(90deg, #999ddc 0%, #3940b9 100%);
-  --gradient-primary-1-a: linear-gradient(90deg, #999ddc 25%, #3940b9 75%);
-  --gradient-primary-1-b: linear-gradient(45deg, #999ddc 0%, #3940b9 100%);
-  --gradient-primary-1-c: linear-gradient(0deg, #999ddc 0%, #3940b9 100%);
+  --gradient-primary-1: linear-gradient(90deg, #497ca5 0%, #092256 100%);
+  --gradient-primary-1-a: linear-gradient(90deg, #497ca5 25%, #092256 75%);
+  --gradient-primary-1-b: linear-gradient(45deg, #497ca5 0%, #092256 100%);
+  --gradient-primary-1-c: linear-gradient(0deg, #497ca5 0%, #092256 100%);
   --gradient-dark-alpha-1: linear-gradient(
     90deg,
     var(--color-dark-1) 40%,
