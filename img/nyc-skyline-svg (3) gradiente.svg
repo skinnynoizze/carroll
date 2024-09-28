@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 710">
+  <!-- Sky background -->
+  <rect width="100%" height="100%" fill="#e6f0ff"/>
+  
+  <!-- Gradient for sky to create depth -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a1c4ff;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#b3d9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f0ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#skyGradient)"/>
+  
+  <!-- Color palette -->
+  <!-- #001f3f (darkest), #003366, #0047AB, #007FFF, #4169E1, #87CEFA (lightest) -->
+  
+  <!-- Background buildings (blurred effect) -->
+  <rect x="10" y="560" width="20" height="130" fill="#b3d9ff"/>
+  <rect x="40" y="530" width="25" height="160" fill="#b3d9ff"/>
+  <rect x="75" y="580" width="15" height="110" fill="#b3d9ff"/>
+  <rect x="100" y="510" width="30" height="180" fill="#b3d9ff"/>
+  <rect x="140" y="550" width="20" height="140" fill="#b3d9ff"/>
+  <rect x="170" y="570" width="25" height="120" fill="#b3d9ff"/>
+  <rect x="205" y="540" width="15" height="150" fill="#b3d9ff"/>
+  <rect x="230" y="520" width="20" height="170" fill="#b3d9ff"/>
+  <rect x="260" y="590" width="30" height="100" fill="#b3d9ff"/>
+  <rect x="300" y="560" width="25" height="130" fill="#b3d9ff"/>
+  <rect x="335" y="580" width="20" height="110" fill="#b3d9ff"/>
+  <rect x="365" y="550" width="15" height="140" fill="#b3d9ff"/>
+  <rect x="390" y="530" width="25" height="160" fill="#b3d9ff"/>
+  <rect x="425" y="570" width="20" height="120" fill="#b3d9ff"/>
+  <rect x="455" y="540" width="30" height="150" fill="#b3d9ff"/>
+  <rect x="495" y="560" width="15" height="130" fill="#b3d9ff"/>
+  <rect x="520" y="580" width="25" height="110" fill="#b3d9ff"/>
+  <rect x="555" y="550" width="20" height="140" fill="#b3d9ff"/>
+  <rect x="585" y="530" width="30" height="160" fill="#b3d9ff"/>
+  <rect x="625" y="570" width="25" height="120" fill="#b3d9ff"/>
+  <rect x="660" y="540" width="15" height="150" fill="#b3d9ff"/>
+  <rect x="685" y="560" width="20" height="130" fill="#b3d9ff"/>
+  <rect x="715" y="580" width="25" height="110" fill="#b3d9ff"/>
+  <rect x="750" y="550" width="30" height="140" fill="#b3d9ff"/>
+  
+  <!-- One World Trade Center -->
+  <polygon points="50,690 80,690 80,360 65,310 50,360" fill="#001f3f"/>
+  
+  <!-- 432 Park Avenue -->
+  <rect x="120" y="430" width="30" height="260" fill="#0047AB"/>
+  
+  <!-- Empire State Building -->
+  <rect x="190" y="450" width="60" height="240" fill="#003366"/>
+  <polygon points="190,450 220,390 250,450" fill="#003366"/>
+  
+  <!-- Chrysler Building -->
+  <rect x="300" y="490" width="50" height="200" fill="#0047AB"/>
+  <polygon points="300,490 325,430 350,490" fill="#0047AB"/>
+  
+  <!-- Central Park Tower -->
+  <rect x="400" y="390" width="40" height="300" fill="#001f3f"/>
+  
+  <!-- 30 Rockefeller Plaza -->
+  <rect x="480" y="510" width="40" height="180" fill="#007FFF"/>
+  
+  <!-- 56 Leonard Street (Jenga Building) -->
+  <rect x="560" y="550" width="60" height="140" fill="#87CEFA"/>
+  <rect x="570" y="530" width="40" height="20" fill="#87CEFA"/>
+  <rect x="580" y="510" width="20" height="20" fill="#87CEFA"/>
+  
+  <!-- 40 Wall Street -->
+  <rect x="660" y="530" width="30" height="160" fill="#4169E1"/>
+  <polygon points="660,530 675,500 690,530" fill="#4169E1"/>
+  
+  <!-- Water -->
+  <rect x="0" y="690" width="800" height="20" fill="#4169E1"/>
+</svg>

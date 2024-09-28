@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Sky background -->
+  <rect x="0" y="0" width="800" height="300" fill="#E6F3FF"/>
+  
+  <!-- Water -->
+  <rect x="0" y="300" width="800" height="300" fill="#B3D9FF"/>
+  
+  <!-- Skyline -->
+  <g id="skyline">
+    <!-- Background buildings (lightest blue) -->
+    <g fill="#A3C9FF">
+      <rect x="20" y="120" width="70" height="180"/>
+      <rect x="180" y="150" width="50" height="150"/>
+      <rect x="320" y="100" width="60" height="200"/>
+      <rect x="540" y="80" width="40" height="220"/>
+      <rect x="720" y="130" width="55" height="170"/>
+    </g>
+    
+    <!-- Mid-layer buildings (light-medium blue) -->
+    <g fill="#7EADFF">
+      <rect x="0" y="100" width="50" height="200"/>
+      <rect x="110" y="50" width="30" height="250"/>
+      <rect x="220" y="120" width="40" height="180"/>
+      <rect x="380" y="140" width="70" height="160"/>
+      <rect x="600" y="70" width="35" height="230"/>
+    </g>
+    
+    <!-- Front-layer buildings (medium blue) -->
+    <g fill="#4D94FF">
+      <rect x="60" y="150" width="40" height="150"/>
+      <rect x="150" y="180" width="60" height="120"/>
+      <rect x="270" y="80" width="50" height="220"/>
+      <polygon points="300,80 320,20 340,80" /> <!-- Pointy building -->
+      <rect x="480" y="100" width="55" height="200"/>
+      <rect x="645" y="120" width="50" height="180"/>
+    </g>
+    
+    <!-- Prominent buildings (dark blue) -->
+    <g fill="#2E74D4">
+      <rect x="350" y="60" width="70" height="240"/>
+      <rect x="545" y="150" width="45" height="150"/>
+      <rect x="705" y="180" width="60" height="120"/>
+    </g>
+    
+    <!-- Empire State Building (darkest blue) -->
+    <g fill="#1A5AAD">
+      <rect x="430" y="40" width="40" height="260"/>
+      <polygon points="435,40 465,40 450,0" />
+    </g>
+  </g>
+  
+  <!-- Reflection (inverted and slightly transparent skyline) -->
+  <g transform="translate(0,600) scale(1,-0.9)" opacity="0.6">
+    <use href="#skyline" />
+  </g>
+  
+  <!-- Water ripples -->
+  <g stroke="#80BFFF" fill="none">
+    <path d="M0 310 Q 200 320, 400 310 Q 600 300, 800 310" stroke-width="2"/>
+    <path d="M0 340 Q 200 350, 400 340 Q 600 330, 800 340" stroke-width="1.5"/>
+    <path d="M0 370 Q 200 380, 400 370 Q 600 360, 800 370" stroke-width="1"/>
+  </g>
+</svg>

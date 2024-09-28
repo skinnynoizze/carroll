@@ -408,8 +408,8 @@
     .page-section,
     .split-column-left,
     .split-column-right{
-        padding-top: 120px; 
-        padding-bottom: 120px;       
+        padding-top: 50px; 
+        padding-bottom: 50px;       
     }
     
     .owl-pagination{
@@ -559,8 +559,8 @@
     .page-section,
     .split-column-left,
     .split-column-right{
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }    
     .small-section{
         padding-top: 50px;
