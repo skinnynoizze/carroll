@@ -1037,6 +1037,10 @@ a.link-hover-anim i {
   transform: translateY(100%);
 }
 
+.team-col {
+  max-width: 80%;
+}
+
 
 .bg-bridge {
   position: relative;
@@ -1125,49 +1129,5 @@ a.link-hover-anim i {
   
 }
 
-@media (max-width: 767px) {
-  .team-1-item {
-    max-width: 280px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .team-1-image {
-    position: relative;
-    padding-top: 100%; /* Creates a 1:1 aspect ratio */
-    overflow: hidden;
-  }
-  
-  .team-1-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .team-1-title {
-    font-size: 1.2rem;
-  }
-  
-  .team-1-role {
-    font-size: 0.9rem;
-  }
-  
-  .team-1-description {
-    font-size: 0.85rem;
-  }
 
-  /* New styles to fix centering issue */
-  .team-row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .team-col {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
 
