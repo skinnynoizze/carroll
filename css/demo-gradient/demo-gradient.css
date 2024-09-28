@@ -1075,9 +1075,10 @@ a.link-hover-anim i {
 }
 
 .explorer-font {
-  font-family: 'Explorer', sans-serif;
+  font-family: 'Room-Black', sans-serif;
   text-align: center;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 .explorer-font .main-title {
@@ -1086,7 +1087,7 @@ a.link-hover-anim i {
 }
 
 .explorer-font .sub-title {
-  font-size: 1.1em; /* Adjust this value to make it smaller */
+  font-size: 1.2em; /* Adjust this value to make it smaller */
   display: block;
 }
 

@@ -7,3 +7,12 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Room-Black';
+    src: url('Room-Black.woff2') format('woff2'),
+         url('Room-Black.woff') format('woff'),
+         url('Room-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
