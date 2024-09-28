@@ -408,8 +408,8 @@
     .page-section,
     .split-column-left,
     .split-column-right{
-        padding-top: 50px; 
-        padding-bottom: 50px;       
+        padding-top: 30px; 
+        padding-bottom: 30px;       
     }
     
     .owl-pagination{
@@ -559,8 +559,8 @@
     .page-section,
     .split-column-left,
     .split-column-right{
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }    
     .small-section{
         padding-top: 50px;
@@ -868,8 +868,8 @@
     .page-section,
     .split-column-left,
     .split-column-right{
-        padding-top: 70px;
-        padding-bottom: 70px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .small-section{
         padding: 30px 0;
