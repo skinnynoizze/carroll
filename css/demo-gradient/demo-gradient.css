@@ -1124,3 +1124,39 @@ a.link-hover-anim i {
 .team-social-links a:hover {
   
 }
+
+@media (max-width: 767px) {
+  .team-1-item {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .team-1-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .team-1-title {
+    font-size: 1.2rem;
+  }
+  
+  .team-1-role {
+    font-size: 0.9rem;
+  }
+  
+  .team-1-description {
+    font-size: 0.85rem;
+  }
+
+  /* New styles to fix centering issue */
+  .team-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .team-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
