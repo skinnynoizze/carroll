@@ -874,7 +874,7 @@ a.link-hover-anim i {
 }
 
 .logo-container {
-  height: 350px;
+  height: 125px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -888,7 +888,7 @@ a.link-hover-anim i {
 
 @media only screen and (max-width: 991px) {
   .logo-container {
-    height: 200px; /* Adjust this value as needed */
+    height: 125px; /* Adjust this value as needed */
   }
   
   .responsive-logo {
@@ -1015,7 +1015,7 @@ a.link-hover-anim i {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(9, 34, 86, 0.9);
   color: white;
   padding: 20px;
   opacity: 0;
@@ -1072,4 +1072,54 @@ a.link-hover-anim i {
 .bg-bridge .container {
   position: relative;
   z-index: 2;
+}
+
+.explorer-font {
+  font-family: 'Explorer', sans-serif;
+  text-align: center;
+  line-height: 1;
+}
+
+.explorer-font .main-title {
+  font-size: 1.5em; /* Adjust this value to make it bigger */
+  display: block;
+}
+
+.explorer-font .sub-title {
+  font-size: 1.1em; /* Adjust this value to make it smaller */
+  display: block;
+}
+
+
+.team-1-hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px;
+}
+
+.team-1-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.team-social-links {
+  text-align: center;
+}
+
+.team-social-links a {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.team-social-links a:hover {
+  
 }
